@@ -20,10 +20,10 @@ export default {
     },
     mounted() {
       this.actList().then((response) => {
-        if (response.status !== 200) {
+        if (parseInt(response.status) !== 200) {
           throw Error('Invalid Data');
         }
-        this.products = response.content;
+        this.products = response.data;
       }).catch((error) => {
         console.log(error)
       })
@@ -41,8 +41,9 @@ export default {
     display: flex; 
     padding: 10px 0px; 
     justify-content: center; 
-    border-bottom: 1px solid
+    border-bottom: 1px solid;
   }
+  .product-list:last-child {margin-bottom: 80px}
   .product-img {margin-right: 20px}
   .image {width: 150px; height: 100px; margin: 0 20px 10px}
   .brand {color: green; font-weight: bold}
@@ -67,4 +68,12 @@ export default {
   .qty {margin: 0px 5px}
   p {margin: 4px 0px}
   button {cursor: pointer;}
+
+  @media only screen and (max-width: 600px) {
+    .btn {
+      margin-bottom: 10px;
+      padding: 5px 20px;
+    }
+    .qty-box {margin: 0px;}
+  }
 </style>

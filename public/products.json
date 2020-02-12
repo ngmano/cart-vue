@@ -1,0 +1,44 @@
+{
+	"status": 200,
+	"data": [{
+			"product_key": "707b1051-3dba-49f6-8caa-92758376fafe",
+			"brand": "Chicken Dry",
+			"product_name": "Popcorn Kebab",
+			"product_image_url": "https://myheartbeets.com/wp-content/uploads/2014/06/achari-chicken-kebab.jpg",
+			"product_mrp": 145,
+			"product_price": 143,
+			"quantity": 10,
+			"offer": "18 % OFF"
+		},
+		{
+			"product_key": "8889f83c-31f1-4ca1-ad13-b7e433cdebf1",
+			"brand": "Chicken Dry",
+			"product_name": "Chicken Lollipop",
+			"product_image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/adhkifmfntgqvyfxnket",
+			"product_mrp": 130,
+			"product_price": 129,
+			"quantity": 15,
+			"offer": "20 % OFF"
+		},
+		{
+			"product_key": "bc1f9a05-afb0-4967-abd2-63d25d0c71fa",
+			"brand": "Chicken Dry",
+			"product_name": "Chilly Kebab",
+			"product_image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/mwjxnsys86a5apetncxm",
+			"product_mrp": 100,
+			"product_price": 96,
+			"quantity": 20,
+			"offer": ""
+		},
+		{
+			"product_key": "bc1f9a05-afb0-4967-abd2-63d25d0c71fa",
+			"brand": "Chicken Dry",
+			"product_name": "Chilly Chicken",
+			"product_image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/mwjxnsys86a5apetncxm",
+			"product_mrp": 100,
+			"product_price": 100,
+			"quantity": 20,
+			"offer": ""
+		}
+	]
+}

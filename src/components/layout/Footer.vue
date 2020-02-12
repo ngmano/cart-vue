@@ -36,9 +36,12 @@ export default {
     .footer {
         background-color: #d905fdcf; 
         justify-content: center;
-        margin-top: 10px;
         padding: 10px;
         display: flex;
+        position: fixed; 
+        left: 0;
+        bottom: 0;
+        width: 100%;
     }
     .cart-overview {width: 50%}
     .cart-overview > span {
